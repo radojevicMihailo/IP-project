@@ -47,7 +47,7 @@ If the participant has already participated in a workshop of the same name in th
 
 The third menu item is "Become an Organizer". The participant has the possibility to propose the workshop himself, by entering the main image (as a file), the name of the workshop, the venue and the date of the event, a short description, a longer description, and an optional couple of images for the gallery, up to five images (enable to add via one form, and not sending file by file to the server). These requests will be considered by the administrator, and if he accepts the request, the participant becomes the organizer.
 
-**<h4>Organizer</h4>
+**<h4>Organizer</h4>**
 
 The organizer is in charge of working with the workshops. When reviewing all workshops, for workshops that he has created, the organizer has the option of editing such workshops. The organizer can edit the workshop information (including images), can accept workshop applications and can cancel the workshop. When canceling the workshop, send an e-mail notification to all registered participants.
 
