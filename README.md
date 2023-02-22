@@ -8,12 +8,13 @@ All users should be allowed to log into the system using their credentials (user
 If the user does not have a user account (not registered in the system), enable the registration of a new user account. The administrator should be able to log in through another form, which is not publicly visible (access to the administrator's log-in form should be on a separate route compared to the initial log-in form for other users).
 
 Participant registration should require entering the following information:
-- Name,
+- name,
 - surname,
 - username (which is unique, at the level of all users in the system),
 - password^1 (and password confirmation),
-- Contact phone,
+- contact phone,
 - e-mail address (unique, maximum one user account per e-mail address).
+
 When registering the organizer, optionally enable the entry of the following fields:
 - name of the organization,
 - the address of the organization's headquarters (country, city, postal code, street and number),
@@ -63,3 +64,5 @@ In addition to working with users, the administrator sees all workshops, and can
 **<h4>Other features of application</h4>**
 
 It is necessary to create a uniform appearance of the application using CSS - Cascading Style Sheets. Each page should contain a menu and a header and footer. On all screens where the desired content is displayed, the option to return to the home screen with user options should be enabled (this only if you do not have a menu that is always visible). All screens also require a link that leads to the initial login screen (option: Log out). In data entry forms, perform the necessary validations on the client side, using JavaScript technology. The web application should be adaptable to both smaller and larger screens ("responsive web design"). Test the web application in at least 3 standard web browsers.
+
+^1 Check the password using a regular expression (minimum 8 characters, maximum 16 characters, of which at least one capital letter, one number and one special character, and must start with a letter).
